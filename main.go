@@ -11,5 +11,5 @@ func main() {
 	runes := []rune(text)
 	res := string(runes[0:width])
 
-	fmt.Printf("%v...", res)
+	fmt.Printf("%v", res)
 }
